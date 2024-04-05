@@ -1,0 +1,14 @@
+// tsconfig.json
+
+{
+    "compilerOptions": {
+      "baseUrl": "./src", // Set the base directory for your imports
+      "paths": {
+        "@setup/*": ["setup/*"], // Define an alias path for the 'utils' folder
+        // "@allure/*": ["allureUtils/*"] // Define an alias path for the 'allureUtils' folder
+      },
+      // ... other compiler options
+    },
+    // ... other configuration options
+  }
+  
